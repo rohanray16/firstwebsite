@@ -1,0 +1,20 @@
+VS code has boilerplate codes
+Boilerplate - template
+type !    - for generating boilerplate code for html
+Markup languages involves uage of tags
+
+we are working with html5
+favicon
+
+
+paragraph tag.(p tag)
+heading(h1,h2,h3,h4,h5,h6)
+line break(br)
+&nbsp html code for inserting spaces within text elements
+
+24th Feb
+anchor tag(a tag)
+list
+
+26th Feb
+
