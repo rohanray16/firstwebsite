@@ -1,22 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h1>World Wide Web</h1>
-    <p class="paragraph-class" id="para1">The WorldWideWeb (W3) is a wide-area <a href="whatis.html">hypermedia</a> information retrieval initiative aiming to give universal access to a large universe of documents.</p>
-    <p class="paragraph-class" id="para2">Everything there is online about W3 is linked directly or indirectly to this document, including an <a href="http://info.cern.ch/hypertext/WWW/Summary.html">executive summary</a> of the project, Mailing lists , Policy , November's W3 news , Frequently Asked Questions .</p>
+    <!-- <h1>World Wide Web</h1>
+    <p class="paragraph-class" id="para1">The WorldWideWeb (W3) is a wide-area <a href="whatis.html">hypermedia</a>
+        information retrieval initiative aiming to give universal access to a large universe of documents.</p>
+    <p class="paragraph-class" id="para2">Everything there is online about W3 is linked directly or indirectly to this
+        document, including an <a href="http://info.cern.ch/hypertext/WWW/Summary.html">executive summary</a> of the
+        project, Mailing lists , Policy , November's W3 news , Frequently Asked Questions .</p>
     <p><a href="#penguin">What's out there?</a><br>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pointers to the world's online information, subjects , W3 servers, etc.<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pointers to the world's online information, subjects
+        , W3 servers, etc.<br>
         Help<br>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;on the browser you are using
 
-    </p>
-    <p>What's out there?<br>
+    </p> -->
+    <!-- <p>What's out there?<br>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pointers to the world's online information, subjects , W3 servers, etc.<br>
         Help<br>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;on the browser you are using
@@ -68,12 +75,108 @@
     <p>This is another paragraph</p>
     <img src="www_image.jpg" alt="">
     <img id="penguin" src="NewTux.svg" alt="">
-    Hi there
-
-
+    Hi there -->
     
+
+
+    <!-- <table border="4" >
+        <caption>My education</caption>
+        <thead>
+            <tr>
+                <th>Education</th>
+                <th>Board</th>
+                <th>Class</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">School</td>
+                <td>ICSE</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>ISC</td>
+                <td>12</td>
+            </tr>
+            <tr>
+                <td>IIEST Shibpur</td>
+                <td colspan="2">Central</td>
+            </tr>
+        </tbody>
+    </table> -->
+    <!-- <div class="text-styling">
+        this is a nice text.
+    </div>
+    <h1>
+        this is a nice text.
+    </h1> -->
+    <!-- <p>This is a nice text</p> -->
+    <form>
+        <!-- user name text -->
+        <label for="username">USER EMAIL</label><br>
+        <input type="email" id="username" name="user" placeholder="Enter valid mail address" required>
+        <br><br>
+        <!-- password type -->
+        <label for="password">PASSWORD</label><br>
+        <input type="password" id="password" name="pass" placeholder="Enter valid password" required>
+        <br><br>
+        <!-- radio type -->
+        <p>Location</p>
+        <input type="radio" id="Kolkata" name="location_values" value="Kolkata" disabled>
+        <label for="Kolkata ">Kolkata</label>
+        <input type="radio" id="Mumbai" name="location_values" value="Mumbai" disabled>
+        <label for="Mumbai">Mumbai</label>
+        <br><br>
+
+        <!-- dropdown type -->
+        <label for="Locations">Location</label>
+        <select name="Locations" id="Locations" disabled>
+            <option value="default">--Choose Location--</option>
+            <option value="Kolkata">Kolkata</option>
+            <option value="Mumbai">Mumbai</option>
+            <option value="Chennai">Chennai</option>
+        </select>
+
+        <!-- checkbox type -->
+        <p>Hobbies</p>
+        <input type="checkbox" id="singing" name="hobby_values" value="singing">
+        <label for="singing">Singing</label>
+        <br>
+        <input type="checkbox" id="dancing" name="hobby_values" value="dancing">
+        <label for="dancing">Dancing</label>
+        <br>
+        <input type="checkbox" id="coding" name="hobby_values" value="coding">
+        <label for="coding">Coding</label>
+        <br><br>
+        <label for="dates">Choose date</label>
+        <input type="date" name="dates" id="dates">
+        <br><br>
+        <input type="file" name="" id="">
+        <br><br>
+
+        <label for="queries">Any queries</label><br>
+        <textarea name="queries" id="queries" cols="70" rows="20"></textarea>
+
+        
+
+
+        <input type="submit" value="Submit">
+
+    </form>
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 </body>
+
 </html>

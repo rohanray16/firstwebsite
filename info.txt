@@ -30,6 +30,17 @@ inline vs block elements
 div(block container) & span(inline container)
 class, id
 
+1st feb
+Tables
+thead, tr , th, td, tbody, caption, colspan, rowspan
+SEO - Search Engine Optimization
+improving SEO of mhy website:-
+no. of visitors
+reviews of website
+meaningful website structure
+
+semantic elements
+
 2nd feb
 Tables, Form, <input> tags(types of input)
 CSS introduction
